@@ -1,0 +1,554 @@
+body {
+margin: 0;
+padding:0;
+}
+
+#menu{
+margin-top: 40px;
+}
+
+#form_section{
+background-color:#2A166F;
+}
+
+#to{
+	color:white;
+}
+
+#from{
+	color: white;
+}
+
+#search1{
+	color: white;
+	transform: translate(0%, 110%);
+	font-size: 25px;
+	margin-bottom: 80px;
+}
+
+.btn{
+	border-radius: 35px;
+	background-color: #F9C234;
+	width: 108px;
+	margin-left: 300px;
+	margin-bottom: 40px;
+	color:#fff;
+}
+#startp{
+	width:400px;
+	height: 50px;
+	border-radius: 10px;
+}
+
+#endp{
+	width:400px;
+	height: 50px;
+	border-radius: 10px;
+}
+
+#walk{
+	width: 85px;
+	margin-left: -65px;
+}
+
+#bike{
+	width: 85px;
+	margin-left: -105px;
+}
+
+#car{
+	width: 85px;
+	margin-left: -135px;
+}
+#bik_img{
+	margin-left: -55px;
+}
+
+#car_img{
+	margin-left: -95px;
+}
+
+#near{
+	font-size: 20px;
+	color: white;
+	margin-bottom: -80px;
+	margin-top: 38px;
+}
+
+#gps{
+	position: absolute;
+	margin-top: -37px;
+	margin-left: 355px;
+}
+
+#move{
+	margin-top: -730px;
+	margin-left: -90px;
+}
+
+#map{
+	
+	width: 800px;
+	height: 710px;
+	margin-left: -12px;
+	margin-bottom: -25px;
+}
+
+@media (max-width:576px){
+body{
+	height: 10%;
+}	
+#search1{
+		margin-bottom: 55px;
+	}
+	#map_section{
+	display: none;
+}
+#startp{
+	width: 360px;
+}
+#endp{
+	width: 360px;
+}
+#gps{
+	margin-left: 330px;
+}
+#submit{
+	margin-left: 85px;
+	width: 190px;
+	margin-bottom: -15px;
+}
+#walk{
+	margin-left: 35px;
+	width: 80px;
+	margin-top: -30px;
+}
+#bike{
+	margin-left: 163px;
+	margin-top: -62px;
+	width: 80px;
+}
+#car{
+	margin-left: 290px;
+	margin-top: -88px;
+	width: 80px;
+}
+#walk_img{
+	margin-top: 50px;
+	margin-left: 10px;
+}
+#bik_img{
+	margin-top: -62px;
+	margin-left: 125px;
+}
+#car_img{
+	margin-top: -110px;
+	margin-left: 250px;
+}
+#form_section{
+margin-bottom: -841px;	
+}
+#near{
+margin-top: -20px;
+}
+}
+
+
+@media(min-width: 577px) and (max-width:650px){
+body{
+	overflow-x: hidden;
+}
+#from{
+	margin-left: 5em;
+}
+#to{
+	margin-left: 5em;
+}
+#startp{
+	margin-left: 5em;
+}
+#endp{
+	margin-left: 5em;
+}
+#gps{
+	margin-left: 28em;
+}
+#submit{
+margin-left: 13em;
+width: 25%;
+}
+#walk{
+	margin-left: -13em;
+	width: 70px;
+	margin-top: 4em;
+}
+#bike{
+	margin-left: 15em;
+	margin-top: -4em;
+	width: 70px;
+}
+#car{
+	margin-left: 24em;
+	margin-top: -5.5em;
+	width: 70px;
+}
+#walk_img{
+	margin-top: 4em;
+	margin-left: 4em;
+}
+#bik_img{
+	margin-top: -5em;
+	margin-left: 12em;
+}
+#car_img{
+	margin-top: -7em;
+	margin-left: 21em;
+}
+#move{
+	margin-top: -87em;
+	margin-left:13em;
+	transform: rotate(90deg);
+}
+#near{
+	position: absolute;
+	color: #fff;
+	margin-top: -30px;
+	margin-left: 0px;
+	z-index: 1;
+}
+
+}
+
+@media(min-width: 651px) and (max-width:767px){
+body{
+	overflow-x: hidden;
+}
+#walk{
+	margin-left: -9em;
+	width: 70px;
+	margin-top: 4em;
+}
+#bike{
+	margin-left: 23em;
+	margin-top: -5.8em;
+	width: 70px;
+}
+#car{
+	margin-left: 32em;
+	margin-top: -7.4em;
+	width: 70px;
+}
+#walk_img{
+	margin-top: 4.3em;
+    margin-left: 9.5em;
+}
+#bik_img{
+	margin-top: -8.5em;
+	margin-left: 20.5em;
+}
+#car_img{
+	margin-top: -11em;
+	margin-left: 28.5em;
+}
+.smb{
+	margin-bottom: 2em;
+	margin-left: 2em;
+}
+#move{
+	margin-top: -87em;
+	margin-left:18em;
+	transform: rotate(90deg);
+}
+#from{
+	margin-left: 9em;
+}
+#to{
+	margin-left: 9em;
+}
+#startp{
+	margin-left: 9em;
+}
+#endp{
+	margin-left: 9em;
+}
+#gps{
+	margin-left: 32em;
+}
+#near{
+	position: absolute;
+	color: #fff;
+	margin-top: -30px;
+	margin-left: 0px;
+	z-index: 1;
+}
+}
+
+
+
+@media (min-width: 768px) and  (max-width: 995px){
+#search1{
+min-width: 800px;
+}
+#map_section{
+		margin-left: 1px;
+	}
+#map{
+	width: 761px;
+	height: 660px;
+	}
+#form_section{
+padding-right: 750px;
+}
+
+#startp{
+	width: 700px;
+}
+#endp{
+	width: 700px;
+}
+#gps{
+	margin-left: 660px;
+}
+#submit{
+width: 150px;
+margin-bottom: -15px;
+margin-left: 260px;
+
+}
+#walk{
+	margin-left: 12px;
+	width: 70px;
+	margin-top: -30px;
+}
+#bike{
+	margin-left: 119px;
+	margin-top: -62px;
+	width: 70px;
+}
+#car{
+	margin-left: 230px;
+	margin-top: -88px;
+	width: 70px;
+}
+#walk_img{
+	margin-top: 50px;
+	margin-left: -5px;
+}
+#bik_img{
+	margin-top: -62px;
+	margin-left: 86px;
+}
+#car_img{
+	margin-top: -110px;
+	margin-left: 190px;
+}
+#move{
+	margin-top: -1300px;
+	margin-left: 270px;
+	transform: rotate(90deg);
+}
+#near{
+	position: absolute;
+	color: #fff;
+	margin-top: -30px;
+	margin-left: 0px;
+	z-index: 1;
+}
+}
+
+
+@media (min-width: 996px) and (max-width: 1199px){
+#from{
+		margin-left: 120px;
+	}
+#to{
+	   margin-left: 120px;	
+	}
+#search1{
+min-width: 800px;
+margin-left: 120px;
+}
+#map_section{
+		margin-left: 1px;
+	}
+#map{
+	width: 1017px;
+	height: 660px;
+	}
+#form_section{
+padding-right: 1010px;
+}
+
+#startp{
+	width: 736px;
+	margin-left: 120px;
+}
+#endp{
+	width: 736px;
+	margin-left: 120px;
+}
+#gps{
+	margin-left: 816px;
+}
+#submit{
+width: 150px;
+margin-bottom: -15px;
+margin-left: 400px;
+
+}
+#walk{
+	margin-left: 124px;
+	width: 70px;
+	margin-top: -30px;
+}
+#bike{
+	margin-left: 239px;
+	margin-top: -62px;
+	width: 70px;
+}
+#car{
+	margin-left: 350px;
+	margin-top: -88px;
+	width: 70px;
+}
+#walk_img{
+	margin-top: 170px;
+	margin-left: 105px;
+}
+#bik_img{
+	margin-top: -62px;
+	margin-left: 206px;
+}
+#car_img{
+	margin-top: -110px;
+	margin-left: 310px;
+}
+#move{
+	margin-top: -1300px;
+	margin-left: 390px;
+	transform: rotate(90deg);
+}
+#near{
+	position: absolute;
+	color: #fff;
+	margin-top: -30px;
+	margin-left: 120px;
+	z-index: 1;
+}
+}
+
+
+
+
+
+
+
+@media (min-width:319px) and (max-width: 359px){
+#map_section{
+	display: none;
+}
+#startp{
+	width: 300px;
+}
+#endp{
+	width: 300px;
+}
+#gps{
+	margin-left: 260px;
+}
+#submit{
+	margin-left: 75px;
+	width: 150px;
+	margin-bottom: -15px;
+}
+#walk{
+	margin-left: 12px;
+	width: 70px;
+	margin-top: -30px;
+}
+#bike{
+	margin-left: 119px;
+	margin-top: -62px;
+	width: 70px;
+}
+#car{
+	margin-left: 230px;
+	margin-top: -88px;
+	width: 70px;
+}
+#walk_img{
+	margin-top: 50px;
+	margin-left: -5px;
+}
+#bik_img{
+	margin-top: -62px;
+	margin-left: 86px;
+}
+#car_img{
+	margin-top: -110px;
+	margin-left: 190px;
+}
+#form_section{
+	margin-bottom: -570px;
+}
+#near{
+
+	margin-top: -20px;
+}
+}
+@media (min-width:360px) and (max-width:400px){
+	#search1{
+		margin-bottom: 55px;
+	}
+	#map_section{
+	display: none;
+}
+#startp{
+	width: 325px;
+}
+#endp{
+	width: 325px;
+}
+#gps{
+	margin-left: 290px;
+}
+#submit{
+	margin-left: 75px;
+	width: 170px;
+	margin-bottom: -15px;
+}
+#walk{
+	margin-left: 12px;
+	width: 73px;
+	margin-top: -30px;
+}
+#bike{
+	margin-left: 133px;
+	margin-top: -62px;
+	width: 73px;
+}
+#car{
+	margin-left: 250px;
+	margin-top: -88px;
+	width: 73px;
+}
+#walk_img{
+	margin-top: 50px;
+	margin-left: -5px;
+}
+#bik_img{
+	margin-top: -62px;
+	margin-left: 100px;
+}
+#car_img{
+	margin-top: -110px;
+	margin-left: 210px;
+}
+#form_section{
+	margin-bottom: -810px;
+}
+#near{
+
+	margin-top: -20px
+}
+}

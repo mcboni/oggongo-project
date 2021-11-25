@@ -1,0 +1,190 @@
+body {
+margin: 0;
+padding:0;
+}
+.ogl{
+	transform: translate(170%, -350%);
+}
+.row{
+	margin-left: -3px;
+	margin-right: 0px;
+	height: auto;
+	padding:0px;
+}
+#carousel{
+	font-family: open Sans;
+	font-size:50px;
+	margin-left: -180px;
+}
+
+#carousel2{
+	color: rgb(34, 197, 116);
+	font-family: open-sans;
+	font-size: 25px;
+}
+
+.carousel-caption{
+   margin: 0;
+  color: white;
+  left: 50%;
+  top: 40%;
+  text-align:left;
+  transform: translate(-50%, -10%);
+}
+#signin-welcome{
+	color:red;
+	margin-top: 80px;
+	margin-left: -70px;
+}
+
+#signin-welcome2{
+	color: #918F8F;
+	margin-top: 0px;
+	margin-left: -70px;
+	margin-bottom: 70px;
+}
+.form-group{
+	margin-left: -70px;
+}
+#submit{
+		margin-left: -70px;
+		background-color: #2A166F;
+		color: white;
+}
+#frmgrp{
+	margin-bottom: 30px;
+}
+
+.error{
+	color: red;
+}
+
+@media (max-width:576px){
+#signin-welcome{
+	color: #2A166F;
+	margin-top: 80px;
+	margin-left: 30px;
+	text-align: center;
+}
+
+#signin-welcome2{
+	color: #918F8F;
+	margin-top: 0px;
+	margin-left: 30px;
+	text-align: center;
+}
+
+.form-group{
+	margin-left: 30px;
+}
+
+.ogl{
+	transform: translate(280%, -310%);
+	width: 30%;
+	height:20%;
+}
+#submit{
+		margin-left: 29px;
+		background-color: #2A166F;
+		color: white;
+		margin-bottom: -90px;
+		width:5em;
+}
+
+#carousel{
+	font-family: open Sans;
+	font-size:15px;
+	  transform: translate(50%, -50%);
+	  text-align: left;
+	  margin-left: -280px;
+	
+}
+.img-responsive{
+height:48%;
+
+
+}
+
+#carousel2{
+	color: #F9C234;
+	font-family: open-sans;
+	font-size: 12px;
+	margin-top: -45px;
+	 
+	 
+}
+
+.carousel-caption{
+   margin: 0;
+  color: white;
+  left: 50%;
+  top: 25%;
+  text-align:left;
+  
+}
+#cent2{
+	margin-top: -450px;
+}
+
+
+}
+
+
+
+@media (min-width: 600px) and (max-width:767px){
+	#carousel{
+		font-family: open Sans;
+		font-size: 26px;
+		margin-left: -90px;
+		min-width: 700px;
+	}
+	#carousel2{
+		font-size: 20px;
+	}
+	.img-responsive{
+		height: 30em;
+		min-width: 120%;
+	}
+	#signin-welcome{
+		margin-left: 5em;
+	}
+	#signin-welcome2{
+		margin-left: 10.5em;
+	}
+	.form-group{
+		margin-left: 5em;
+	}
+	#submit{
+		margin-left: 5em;
+		width: 5em;
+		margin-bottom: -7em;
+	}
+	
+.ogl{
+	transform: translate(245%, -340%);
+	width: 30%;
+	height:20%;
+}
+}
+
+
+@media (min-width: 768px) and (max-width:1300px){
+#carousel{
+	font-family: open Sans;
+font-size: 30px;
+margin-left: -150px;
+	
+}
+
+.img-responsive{
+width: 90%;
+height: 550px;
+}
+#carousel2{
+	color: #F9C234;
+	font-family: open-sans;
+	font-size: 22px;
+	
+}
+
+}

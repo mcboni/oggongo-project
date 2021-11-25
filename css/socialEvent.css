@@ -1,0 +1,260 @@
+html,body{height:100%}
+
+#submit{
+    height: 2.2em;
+    width: 9em;
+    background-color: #2A166F;
+    color: white;
+    border: none;
+   margin-left: 25em;
+   margin-top: 1em;
+}
+.frm{
+    margin-top: 19em;
+    margin-left: 22em;
+}
+.smallText{
+    margin-top: -.3em;
+    margin-left: 24em;
+    color:#7A869A
+}
+
+
+@media (min-width:200px) and (max-width:359px){
+    html,body{
+        overflow-x: hidden;
+    }
+    .form-input{
+       size: 2em;
+    }
+
+    .frm{
+        margin-top: 15em;
+        margin-left: 1.7em;
+        
+
+    }
+    .smallText{
+        margin-top: -.3em;
+        margin-left: 1.7em;
+        color:#7A869A
+    }
+    #submit{
+        height: 2.2em;
+        width: 9em;
+        background-color: #2A166F;
+        color: white;
+        border: none;
+       margin-left: 3.2em;
+       margin-top: 1em;
+    }
+}
+
+@media (min-width:360px) and (max-width:400px){
+    html,body{
+        overflow-x: hidden;
+    }
+    .form-input{
+       size: 2em;
+    }
+
+    .frm{
+        margin-top: 15em;
+        margin-left: 3.5em;
+        
+
+    }
+    .smallText{
+        margin-top: -.3em;
+        margin-left: 3.5em;
+        color:#7A869A
+    }
+    #submit{
+        height: 2.2em;
+        width: 9em;
+        background-color: #2A166F;
+        color: white;
+        border: none;
+       margin-left: 5.2em;
+       margin-top: 1em;
+    }  
+}
+
+@media(min-width:401px) and (max-width:500px){
+    html,body{
+        overflow-x: hidden;
+    }
+    .form-input{
+       size: 2em;
+    }
+
+    .frm{
+        margin-top: 19em;
+        margin-left: 5em;
+        
+
+    }
+    .smallText{
+        margin-top: -.3em;
+        margin-left: 5em;
+        color:#7A869A
+    }
+    #submit{
+        height: 2.2em;
+        width: 9em;
+        background-color: #2A166F;
+        color: white;
+        border: none;
+       margin-left: 6.7em;
+       margin-top: 1em;
+    } 
+}
+
+@media(min-width:501px) and (max-width:600px){
+    html,body{
+        overflow-x: hidden;
+    }
+    .form-input{
+       size: 2em;
+    }
+
+    .frm{
+        margin-top: 19em;
+        margin-left: 9em;
+        
+
+    }
+    .smallText{
+        margin-top: -.3em;
+        margin-left: 9em;
+        color:#7A869A
+    }
+    #submit{
+        height: 2.2em;
+        width: 9em;
+        background-color: #2A166F;
+        color: white;
+        border: none;
+       margin-left: 11em;
+       margin-top: 1em;
+    }
+}
+
+@media(min-width:601px) and (max-width:700px){
+    html,body{
+        overflow-x: hidden;
+    }
+    .form-input{
+       size: 2em;
+    }
+
+    .frm{
+        margin-top: 9em;
+        margin-left: 9em;
+        
+
+    }
+    .smallText{
+        margin-top: -.3em;
+        margin-left: 9em;
+        color:#7A869A
+    }
+    #submit{
+        height: 2.2em;
+        width: 9em;
+        background-color: #2A166F;
+        color: white;
+        border: none;
+       margin-left: 11em;
+       margin-top: 1em;
+    }
+}
+
+@media (min-width:701px) and (max-width:750px){
+    html,body{
+        overflow-x: hidden;
+    }
+    .form-input{
+       size: 2em;
+    }
+
+    .frm{
+        margin-top: 9em;
+        margin-left: 9em;
+        
+
+    }
+    .smallText{
+        margin-top: -.3em;
+        margin-left: 9em;
+        color:#7A869A
+    }
+    #submit{
+        height: 2.2em;
+        width: 9em;
+        background-color: #2A166F;
+        color: white;
+        border: none;
+       margin-left: 11em;
+       margin-top: 1em;
+    }
+}
+@media (min-width:751px) and (max-width:800px){
+    html,body{
+        overflow-x: hidden;
+    }
+    .form-input{
+       size: 2em;
+    }
+
+    .frm{
+        margin-top: 9em;
+        margin-left: 9em;
+        
+
+    }
+    .smallText{
+        margin-top: -.3em;
+        margin-left: 9em;
+        color:#7A869A
+    }
+    #submit{
+        height: 2.2em;
+        width: 9em;
+        background-color: #2A166F;
+        color: white;
+        border: none;
+       margin-left: 11em;
+       margin-top: 1em;
+    }
+}
+
+@media (min-width:801px) and (max-width:909px){
+    html,body{
+        overflow-x: hidden;
+    }
+    .form-input{
+       size: 2em;
+    }
+
+    .frm{
+        margin-top: 9em;
+        margin-left: 16em;
+        
+
+    }
+    .smallText{
+        margin-top: -.3em;
+        margin-left: 16em;
+        color:#7A869A
+    }
+    #submit{
+        height: 2.2em;
+        width: 9em;
+        background-color: #2A166F;
+        color: white;
+        border: none;
+       margin-left: 17em;
+       margin-top: 1em;
+    }  
+}
