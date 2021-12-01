@@ -1,0 +1,291 @@
+<?php
+include 'dbconnection.php';
+?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/trash.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+  <title>THE EYO FESTIVAL</title>
+</head>
+<header>
+
+</header>
+
+
+<body>
+<div class="container">
+    <div class="row">
+    <div class="col-lg-8 col-md-8 col-sm-12" style="border:1px solid #cecece; margin-top:5em;">
+    <h1 id="main112">The Eyo Festival</h1>
+   <small id="author"><strong>By Titi Akintoye</strong></small>
+
+   <div class="firstimage">
+<p><img src="css/Eyo1.jpg"  class="img-thumbnail" alt="remote"></p>
+<small>photo credit: Travelstart Nigeria</small>
+</div>
+
+
+ <P>Lagos is known for the Eyo festival, a very popular festival which is believed to have its origin in the secret societies of Lagos as it was held in the very distant past to escort the soul of a departed monarch or highly esteemed chief of the king’s court. The white clad Eyo masquerade represents the spirit of the dead (as all masquerades do). It is also celebrated to usher in a new king. The festival is also believed to be a dedication to the god of the sea- Olokun.</P>
+
+
+
+
+
+ <P>
+ There is no customarily defined time for holding the festival but when it holds, it is usually preceded by a weeklong series of activities which culminates in a procession of men clothed in white flowing robes with their faces covered with see through woven material with everyone of them carrying a staff and wearing hats of different colours called “aga”.
+
+</P>
+
+
+
+ <div class="firstimage">
+<p><img src="css/Eyo2.jpg"  class="img-thumbnail" alt="remote"></p>
+</div>
+<small><strong>Photo Credit:</strong>https://commons.wikimedia.org/wiki/File:EYO_Festival.jpg</small>
+
+ 
+
+<p>
+A week before the procession, always a Sunday, the senior Eyo group, the Adimu with black broad brimmed hats come out in public  which signifies that the festival will hold on the following Saturday. Each of the four other important groups: Laba (red hat), Oniko (yellow hat) Ologede (green hat), and Agere (purple hat) take their turn in that order from Monday to Thursday.
+
+</p>
+
+<p> On Eyo day, the procession moves from Idumota and through Lagos Island, various locations and landmarks in the city to the king’s palace (Iga Iduganran) where they pay homage to the reigning king. The main highway from the end of Carter Bridge to Tinubu square is closed to vehicles, motorcycles and bicycles. During the festival footwear, head gear of any sort (for both men and women) and “suku”- a local woven hairstyle for women- is prohibited. Violators are beaten by the Eyo masquerade with the staff they carry.<br>The first Eyo procession was held on the 20th February, 1854 to commemorate the life of Oba Akitoye</P>
+
+
+
+<p><strong>Welcome to Lagos - Oggongo …the power of where, what, when, why and how!!</strong></p>
+
+
+<h2>Leave a Comment</h2>
+
+<form method="post" >
+         <!--Defining form group for emails -->
+       
+       
+         <div class="form-group" >
+       
+            <!--Defining Input type for form field -->
+           <input type="hidden" name="Post_id" id="Post_id" value="article10">
+           </div>
+       
+           <div class="form-group" >
+       
+           <!--Defining Input type for form field -->
+          <input type="hidden" name="status" id="status" value="vetted">
+          </div>
+       
+       
+           <div class="form-group" >
+                 <!--Label for Input type email -->
+           <label for="InputEmail1" id="contact2">Name</label>
+            <!--Defining Input type for form field -->
+           <input type="text" name="Names"class="form-control" id="Names" aria-describedby="emailHelp">
+           </div>
+       
+       
+            <div class="form-group">
+                 <!--Label for Input type TextArea -->
+           <label for="textarea" id="contact2">Comment</label>
+            <!--Defining Input type for form field -->
+           <textarea  class="form-control" id="Comment" name="Comment" aria-describedby="emailHelp" rows="6"></textarea>
+           </div>
+       
+           
+            <!--Defining Button -->
+           <button type="submit" name="submit" class="btn" id="submit">Post</button>
+           <p id="success"></p>
+         
+       </form>
+       <p id="dat"></p>
+ 
+
+            
+     
+</div>
+
+
+    <div class="col-lg-4 col-md-4 col-sm-12 form-section">
+        <div class="row">
+
+        <div class="col-lg-12 col-md-12 col-sm-12 forms mx-auto"> 
+            <h6 id="sub">Subscribe to our Daily blogpost alert to be informed when they drop</h6>
+            <?php
+
+if(isset($_POST['txt']))
+{
+  $email=$_POST['email'];
+  $text=$_POST['name'];
+ 
+ 
+    ini_set( 'display_errors', 1 );
+    error_reporting( E_ALL );
+    $from = $email;
+    $to = "blogsubscription@oggongo.com,olufoyinsola@oggongo.tech";
+    $subject = "Subscription Request";
+    $message = "Subcriber Name :".$text."<br> Subscriber Email: ".$email;
+    $headers = "From:" . $from; "Content-Type:text/html";
+    mail($to,$subject,$message, $headers);
+    
+echo '<p class="success">Subcription Received</p>';
+
+}
+
+
+?>
+
+            <form action="" method="post">
+            <input type="text" name="name" class="form-control2" placeholder="Name" id="exampleInputEmail1"
+                required>
+
+            <input type="email" name="email" class="form-control2" placeholder="Email Address"
+                id="exampleInputEmail1" aria-describedby="emailHelp" required>
+            <input type="submit" name="txt" value="subscribe" id="submit2">
+
+
+
+
+             </form>
+
+            
+        </div>
+
+
+
+
+
+        <div class="col-lg-12 col-md-12 col-sm-12"> 
+            <h5 id="blgpst"class="render">Blogpost categories</h5>
+            <hr>
+            
+
+
+            <div class="card render2 text-center mx-auto">
+              <div class="card-body">
+
+                <h6 id="flipped1">Attraction</h6> 
+                <p id="flipped1b">Featured Post</p> 
+                 <a href="oggongo.com/whale_watching_experience.php" ><p id="flipped1c">Whale Watching Experience</p></a>
+          </div>
+        </div>
+
+       
+
+
+        <div class="card render2 text-center mx-auto">
+              <div class="card-body">
+
+                <h6 id="flipped1">Attractions</h6> 
+                <p id="flipped1b">Featured Post</p> 
+                <a href="oggongo.com/10 Reasons to visit Lagos during the rainy season.php"><p id="flipped1c">Ten reasons for visiting Lagos during the rainy season</p></a>
+          </div>
+        </div>
+
+        <div class="card render2 text-center mx-auto">
+              <div class="card-body">
+
+                <h6 id="flipped1">Health Tips</h6> 
+                <p id="flipped1b">Featured Post</p> 
+                <a href="oggongo.com/trash_talk.php"><p id="flipped1c">Trash Talk Part One</p></a>
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    </div>
+    </div>
+    
+    
+ </div>
+</div>
+
+
+<div class="container-fluid">
+  <div class="row foot">
+  <div class="col-lg-4 col-md-4 col-sm-12">
+    <div class="row">
+    <div class="col-lg-12 col-md-12 col-sm-12">
+      <h1 id="footer-text">Lagos<span id="footer-text2">Reads</span></h1>
+      <p id="excite">Exciting reads that will make you keep coming back for more</p>
+    </div>
+
+    </div>
+
+  </div>
+
+
+  <div class="col-lg-4 col-md-4 col-sm-12">
+    <div class="row">
+    <div class="col-lg-12 col-md-12 col-sm-12">
+      <h1 id="lp">Latest Posts</h1>
+      <img src="css/trash.jpg" class="img-thumbnail" id="img-thumbnail"><p id="img-text">trash talk your way into lagos</p>
+      <img src="css/party.jpg" class="img-thumbnail" id="img-thumbnail"><p id="img-text">lagos party</p>
+    </div>
+
+    </div>
+
+  </div>
+
+
+
+  <div class="col-lg-4 col-md-4 col-sm-12 ">
+    <div class="row">
+    <div class="col-lg-12 col-md-12 col-sm-12">
+    <h1 id="lp">Quick Links</h1>
+    </div>
+    <div class="col-lg-12 col-md-12 col-sm-12 info">
+    <a href='#' id="l1">About oggongoGPIL</a>
+    </div>
+    <div class="col-lg-12 col-md-12 col-sm-12 info">
+    <a href='#' id="l1" >Articles</a>
+    </div>
+    <div class="col-lg-12 col-md-12 col-sm-12 info">
+    <a href='#' id="l1">Contact Us</a>
+</div>
+    
+   
+
+    </div>
+
+  </div>
+
+
+<div class="col-lg-12 col-md-12 col-sm-12 text-center">
+<P id="rights"> Copyright ©2020 All Right Reserved oggongoGPIL</p>
+
+</div>
+
+
+
+  </div>
+</div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+<!--- Script for bootstrap-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="upload10.js"></script>
+<script type="text/javascript" src="download10.js"></script>
